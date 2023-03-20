@@ -1,8 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 
-const app = express();
-
 class Server {
     static async init() {
         let server = new Server();
